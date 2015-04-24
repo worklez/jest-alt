@@ -9,7 +9,7 @@ class LoginActions {
 		this.generateActions('foo');
 	}
 
-	loginSuccessfull({token}) {
+	loginSuccessful({token}) {
 		this.dispatch({token});
 	}
 }
@@ -29,6 +29,6 @@ const LoginActions = {};
 LoginActions.login = jest.genMockFunction();
 LoginActions.logout = jest.genMockFunction();
 LoginActions.foo = jest.genMockFunction();
-LoginActions.loginSuccessfull = jest.genMockFunction();
+LoginActions.loginSuccessful = jest.genMockFunction();
 export default LoginActions;
 ```
